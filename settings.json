@@ -1,6 +1,6 @@
 {
   "bot-account": {
-    "username": "BOT1",
+    "username": "BOT",
     "password": "",
     "type": "mojang"
   },
@@ -25,19 +25,19 @@
     },
 
     "anti-afk": {
-      "enabled": false,
+      "enabled": true,
       "sneak": false,
-      "jump": false,
-      "rotate": false,
+      "jump": true,
+      "rotate": true,
 
       "hit": {
-        "enabled": false,
+        "enabled": true,
         "delay": 1000,
-        "attack-mobs": false
+        "attack-mobs": true
       },
 
       "circle-walk": {
-        "enabled": false,
+        "enabled": true,
         "radius": 2
       }
     },
@@ -49,14 +49,14 @@
 
       "messages": [
         "I'm a regular player ",
-        "My owner is urFate_ ",
+        "My owner is Albin ",
         "I want be alone ",
         "Visit my GitHub page! (urFate/Afk-Bot)"
       ]
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 5000
   }
 }
